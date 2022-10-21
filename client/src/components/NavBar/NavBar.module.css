@@ -1,0 +1,14 @@
+.navBarContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255);
+}
+.notifications{
+    background-color: rgb(0, 102, 255);
+    border-radius: 3px;
+    padding: 1px 2.5px 1px 2.5px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 5px;
+}

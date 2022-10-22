@@ -11,7 +11,7 @@ const bulkCreateCows = [
   },
   {
    
-    "idSENASA": "1234567891234567",
+    "idSENASA": "AHN2S6STR452WQE2",
     "type": "Toro",
     "weight": 150,
     "fieldName": "2",
@@ -21,7 +21,7 @@ const bulkCreateCows = [
   },
   {
    
-    "idSENASA": "1234567891234567",
+    "idSENASA": "10SXW2365XDTGFA1",
     "type": "Vaquillona",
     "weight": 150,
     "fieldName": "2",
@@ -31,7 +31,7 @@ const bulkCreateCows = [
   },
   {
     
-    "idSENASA": "1234567891234567",
+    "idSENASA": "SXA102WE2SFGH10X",
     "type": "Toro",
     "weight": 150,
     "fieldName": "2",

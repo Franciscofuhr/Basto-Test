@@ -2,7 +2,7 @@
 const mongoose =require("mongoose")
 // I use a test database for testing
 const mongoDB="mongodb://127.0.0.1/my_test_database"
-mongoose.connect(mongoDB)
+
 const {Cow} =require("../../src/models/Cows")
 const normalCow={
   idSENASA: "1234567890123456",
@@ -15,6 +15,9 @@ const normalCow={
 }
 
 describe("Cow model", () => {
+  before(()=>{
+    mongoose.connect(mongoDB)
+  })
   beforeEach(async()=>{
     await Cow.remove({})
   })
